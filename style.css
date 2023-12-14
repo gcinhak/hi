@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px
+  }
+  
+  .container{
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: auto;
+  }
+
+  .imageContainer{
+    text-align: center;
+    max-width: auto;
+    }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #0099ff;
+    margin-bottom: 20px;
+  }
+
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-image {
+      max-width: 500px;
+    }
+  }
