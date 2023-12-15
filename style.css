@@ -30,18 +30,18 @@ body {
   
   @media(min-width: 1024px){
       #large{
-          display: block;
+          display: none;
       }
       #small{
-          display: none;
+          display: block;
       }
     }
 
   @media(min-width: 768px){
       #large{
-          display: none;
+          display: block;
       }
       #small{
-          display: block;
+          display: none;
       }
 }
